@@ -1,0 +1,207 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: serif;
+    background-color: #000;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+@media(min-width:992px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #000;
+    }
+}
+
+
+#toiawaseform{
+background: url(./sozai/top_bg2.jpg) no-repeat bottom center scroll;
+background-size: cover;
+}
+
+.title-form {
+  color: white;
+  font-size: 41px;
+  font-family: serif;
+  text-shadow: 3px 3px 3px rgba(100,100,100,0.8);
+  text-align: center;
+}
+
+.toiawase{
+  padding-top: 43px;
+  color: white;
+}
+
+.toiawase h1{
+  width: 100%;
+  font-size: 14px;
+  text-align: right;
+  padding-top: 9px;
+  padding-right: 34px;
+  padding-left: 0px;
+  position: relative;
+  bottom: 10px;
+}
+
+.soushin{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+@media screen and (max-width:992px) {
+    .toiawase h1{
+        text-align: center;
+    }
+}
+
+footer{
+    padding-top: 55px;
+    color: white;
+    background-color: black;
+}
+.footerimg{
+    padding-left: 30px;
+}
+footer img {
+    width: 172px;
+    padding-right: 9px;
+    padding-bottom: 9px;
+    display: inline-block;
+}
+footer h1{
+    text-align: center;
+    font-family: serif;
+    font-size: 14px;
+    padding-bottom: 0px;
+}
+#office{
+    width: 450px;
+    margin: 0 auto;
+    padding-bottom: 32px;
+    line-height: 20px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.office-left{
+    float: left;
+    position: relative;
+
+}
+.office-right{
+    text-align: center;
+}
+.office-right p1{
+    color: #42dc93;
+}
+.office-right p1:hover{
+    color: white;
+}
+.copyright{
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+

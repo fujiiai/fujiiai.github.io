@@ -3,46 +3,203 @@
 	padding:0;
 }
 body{
-	background:#ccc url(../images/BG.jpg) repeat top left;
-	font-family: Arial, Helvetica, sans-serif;
+	background:#ccc url(../images/BG.jpg) no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
 	color:#444;
 	font-size:12px;
 	color: #000;
 }
+h1{
+	color:#2F1B0C;
+	font-size:40px;
+	margin:20px 0px 0px 20px;
+}
+p{
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 15px;
+  line-height: 15px;
+  margin-top: 7px;
+}
+.postit{
+	width: 100%;
+  padding-left: 820px;
+  padding-top: 0px;
+}
+.postit ul{
+  list-style: none;
+}
+.postit li{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.tabdesign{
+	padding-top: 5px;
+	font-size: 12px;
+	text-align: center;
+	background-image: url(../images/blue_top.png);
+  width: 60px;
+  height: 23px;
+  color: white;
+}
+.tabillust{
+	padding-top: 5px;
+	font-size: 12px;
+	text-align: center;
+	background-image: url(../images/blue_top.png);
+  width: 60px;
+  height: 23px;
+  color: white;
+  position: relative;
+  right: 11px;
+}
+.tabmovie{
+	padding-top: 5px;
+	font-size: 12px;
+	text-align: center;
+	background-image: url(../images/blue_top.png);
+  width: 60px;
+  height: 23px;
+  color: white;
+  position: relative;
+  right: 22px;
+}
+.tabweb{
+	padding-top: 5px;
+	font-size: 12px;
+	text-align: center;
+	background-image: url(../images/blue_top.png);
+  width: 60px;
+  height: 23px;
+  color: white;
+  position: relative;
+  right: 29px;
+}
+.tabprofiel{
+	padding-top: 5px;
+	font-size: 12px;
+	text-align: center;
+	background-image: url(../images/blue_top.png);
+  width: 60px;
+  height: 23px;
+  color: white;
+  position: relative;
+  right: 40px;
+}
+.tabcontact{
+	padding-top: 5px;
+	font-size: 12px;
+	text-align: center;
+	background-image: url(../images/blue_top.png);
+  width: 60px;
+  height: 23px;
+  color: white;
+  position: relative;
+  right: 51px;
+}
+
 
 /* Booklet jQuery Plugin Style*/
-.b-wrap-left  {
-	background:#fff url(../images/left_bg.jpg) no-repeat top left;
+
+.booklet .b-wrap-left  {
+	background:url(../images/left.jpg) no-repeat top left;
 }
-.b-wrap-right {
-	background:#efefef url(../images/right_bg.jpg) no-repeat top left;
+.booklet .b-wrap-right {
+    background:url(../images/right.jpg) no-repeat top left;
 }
-.b-wrap-right img{
-	position: absolute;
-	bottom: -150px;
-	left: 0px;
+
+.book_wrapper{
+	margin:0 auto;
+	width:905px;
+	height:540px;
+	position:relative;
+  background-image: url(../images/book_BG.png);
+  font-family:sans-serif;
 }
+
+.book_wrapper h1{
+	color:#13386a;
+	margin:5px 5px 5px 15px;
+	font-size:26px;
+	background:transparent url(../images/h1.png) no-repeat bottom left;
+	padding-bottom:7px;
+}
+
+
+.book_wrapper img{
+	width:400px;
+	position:relative;
+	bottom: 10px;
+	right: 10px;
+
+}
+.postit_de img{
+  width: 60px;
+  padding-left: 100px;
+}
+.left{
+	padding-top: 40px;
+	padding-left: 30px;
+}
+.left h2{
+	padding-top: 40px;
+	border-bottom: solid 1px #646464;
+	width: 50%;
+}
+.left img{
+	width: 100%;
+}
+.right table{
+	padding-top: 0px;
+	padding-left: 10px;
+}
+.logo img{
+	width: 90%;
+	padding-bottom: 10px;
+}
+
+#profiel{
+  padding-top: 40px;
+  padding-left: 30px;
+}
+.photo img{
+  width: 45%;
+}
+.photo h2{
+  padding-top: 40px;
+  border-bottom: solid 1px #646464;
+  width: 50%;
+}
+.skill{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.skill img{
+  width: 20px;
+  padding-right: 5px;
+}
+
+
 a#next_page_button,
 a#prev_page_button{
 	display:none;
 	position:absolute;
-	width:50px;
-	height:50px;
+	width:40px;
+	height:40px;
 	cursor:pointer;
-	margin-top:140px;
+	margin-top:220px;
 	top:50%;
-	background:transparent url(../images/buttons.png) no-repeat 0px -40px;
+	background:transparent url(../images/buttons.png) no-repeat
 }
 a#prev_page_button{
-	left:170px;
-	background-position:-2px 0px;
+	left:-30px;
 }
 a#next_page_button{
-	right:150px;
-	background-position:-2px 0px;
+	right:-30px;
 }
 a#next_page_button:hover{
-	background-position:0px 0px;
+	background-position:-41px 0px;
 }
 a#prev_page_button:hover{
 	background-position:0px 0px;

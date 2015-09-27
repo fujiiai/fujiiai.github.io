@@ -26,6 +26,10 @@ p{
   padding-left: 820px;
   padding-top: 0px;
 }
+a:-webkit-any-link {
+    color: gray;
+    text-decoration: none;
+}
 .postit ul{
   list-style: none;
 }

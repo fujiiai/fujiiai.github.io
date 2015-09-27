@@ -179,6 +179,10 @@ p{
   width: 20px;
   padding-right: 5px;
 }
+.mail{
+  text-decoration: none;
+  color: gray;
+}
 
 
 a#next_page_button,
